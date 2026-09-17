@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unit:comments > should be extension 1`] = `
+{
+  "source": {
+    "35": [
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeHashbangContinuation],
+        },
+        "exit": [Function exitHashbang],
+        "name": "comment:hashbang",
+        "previous": [Function previousHashbang],
+        "tokenize": [Function tokenizeHashbang],
+      },
+    ],
+    "47": [
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeBlockCommentContinuation],
+        },
+        "exit": [Function exitBlockComment],
+        "name": "comment:js:block",
+        "resolve": [Function resolveBlockComment],
+        "tokenize": [Function tokenizeBlockComment],
+      },
+      {
+        "continuation": {
+          "tokenize": [Function tokenizeLineCommentContinuation],
+        },
+        "exit": [Function exitLineComment],
+        "name": "comment:js:line",
+        "tokenize": [Function tokenizeLineComment],
+      },
+    ],
+  },
+}
+`;
