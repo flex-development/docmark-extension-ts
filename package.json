@@ -103,7 +103,7 @@
     "typecheck:ui": "yarn test:ui --typecheck --mode=typecheck"
   },
   "dependencies": {
-    "@flex-development/docmark-extension-js": "1.0.0-alpha.1",
+    "@flex-development/docmark-extension-js": "1.0.0-alpha.3",
     "@flex-development/docmark-factory-line": "1.0.0-alpha.4",
     "@flex-development/docmark-util-combine-extensions": "1.0.0-alpha.11",
     "@flex-development/docmark-util-symbol": "1.0.0-alpha.7",
@@ -163,9 +163,6 @@
     "vfile": "6.0.3",
     "vite": "8.3.0",
     "vitest": "5.0.1"
-  },
-  "resolutions": {
-    "@flex-development/docmark-util-types": "1.0.0-alpha.11"
   },
   "packageManager": "yarn@4.18.0",
   "sideEffects": false
