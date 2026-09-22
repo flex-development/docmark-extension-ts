@@ -24,6 +24,7 @@
 - [Use](#use)
 - [API](#api)
   - [`tsComments`][api-ts-comments]
+  - [`tripleSlashComment`][api-triple-slash-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -75,13 +76,18 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-This package exports the identifier [`tsComments`][api-ts-comments].
+This package exports the identifiers [`tsComments`][api-ts-comments]
+and [`tripleSlashComment`][api-triple-slash-comment].
 
 The default export is `tsComments`.
 
-### `tsComments`
+### [`tsComments`](./src/comments.mts)
 
 **TODO**: `tsComments`
+
+### [`tripleSlashComment`](./src/triple-slash.comment.mts)
+
+**TODO**: `tripleSlashComment`
 
 ## Types
 
@@ -104,6 +110,8 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
+
+[api-triple-slash-comment]: #tripleslashcomment
 
 [api-ts-comments]: #tscomments
 

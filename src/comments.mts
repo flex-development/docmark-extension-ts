@@ -4,20 +4,23 @@
  */
 
 import { jsComments } from '@flex-development/docmark-extension-js'
-import combine from '@flex-development/docmark-util-combine-extensions'
+import {
+  combineExtensions
+} from '@flex-development/docmark-util-combine-extensions'
 import { codes, constants } from '@flex-development/docmark-util-symbol'
 import type { NormalizedExtension } from '@flex-development/docmark-util-types'
+import tripleSlashComment from './triple-slash.comment.mts'
 
 /**
- * The JavaScript comment syntax extension.
+ * The TypeScript comments syntax extension.
  *
  * @see {@linkcode NormalizedExtension}
  *
  * @const {NormalizedExtension} comments
  */
-const comments: NormalizedExtension = combine(jsComments, {
+const comments: NormalizedExtension = combineExtensions(jsComments, {
   [constants.contentTypeSource]: {
-    [codes.slash]: []
+    [codes.slash]: tripleSlashComment
   }
 })
 

@@ -4,5 +4,6 @@ exports[`e2e:docmark-extension-ts > should expose public api 1`] = `
 [
   "default",
   "tsComments",
+  "tripleSlashComment",
 ]
 `;

@@ -7,11 +7,16 @@
     "docblock",
     "docmark",
     "documentation",
+    "hashbang",
     "javascript",
     "js",
     "slash-comment",
     "triple-slash",
     "ts",
+    "ts-check",
+    "ts-expect-error",
+    "ts-ignore",
+    "ts-nocheck",
     "two-slash",
     "typescript"
   ],
@@ -103,8 +108,8 @@
     "typecheck:ui": "yarn test:ui --typecheck --mode=typecheck"
   },
   "dependencies": {
-    "@flex-development/docmark-extension-js": "1.0.0-alpha.4",
-    "@flex-development/docmark-factory-line": "1.0.0-alpha.9",
+    "@flex-development/docmark-extension-js": "1.0.0-alpha.6",
+    "@flex-development/docmark-factory-line": "1.0.0-alpha.11",
     "@flex-development/docmark-util-combine-extensions": "1.0.0-alpha.15",
     "@flex-development/docmark-util-symbol": "1.0.0-alpha.9",
     "@flex-development/docmark-util-types": "1.0.0-alpha.15",
