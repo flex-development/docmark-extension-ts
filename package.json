@@ -109,10 +109,10 @@
   },
   "dependencies": {
     "@flex-development/docmark-extension-js": "1.0.0-alpha.6",
-    "@flex-development/docmark-factory-line": "1.0.0-alpha.11",
-    "@flex-development/docmark-util-combine-extensions": "1.0.0-alpha.15",
-    "@flex-development/docmark-util-symbol": "1.0.0-alpha.9",
-    "@flex-development/docmark-util-types": "1.0.0-alpha.15",
+    "@flex-development/docmark-factory-line": "1.0.0-alpha.15",
+    "@flex-development/docmark-util-combine-extensions": "1.0.0-alpha.19",
+    "@flex-development/docmark-util-symbol": "1.0.0-alpha.11",
+    "@flex-development/docmark-util-types": "1.0.0-alpha.19",
     "devlop": "1.1.0"
   },
   "devDependencies": {
@@ -122,7 +122,7 @@
     "@commitlint/types": "21.2.3",
     "@edge-runtime/vm": "5.0.0",
     "@flex-development/commitlint-config": "1.0.1",
-    "@flex-development/docmark": "1.0.0-alpha.15",
+    "@flex-development/docmark": "1.0.0-alpha.19",
     "@flex-development/eslint-config": "1.1.1",
     "@flex-development/export-regex": "2.0.0",
     "@flex-development/grease": "3.0.0-alpha.9",
